@@ -23,7 +23,7 @@ function VideoList(props) {
 }
 
 function App() {
-  const [list, setList] = useState([
+  const [list] = useState([
     {
         url: 'https://www.youtube.com/embed/rN6nlNC9WQA?rel=0&amp;controls=0&amp;showinfo=0',
         date: '2017-07-31 13:24:00'
